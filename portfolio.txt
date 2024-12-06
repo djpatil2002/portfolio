@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>datta portfolio</title>
+    
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            background-color: rgb(15, 15, 22);
+            color: white;
+        }
+
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(10, 10, 71);
+        }
+
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li{
+            list-style-type: none;
+            margin: 0 23px;
+        }
+
+        main hr{
+            border: 0;
+            margin: 50px 90px;
+            background-color: cadetblue;
+            height: 1.2px;
+        }
+
+        nav ul li a{
+            text-decoration: none;
+            color: rgb(171, 184, 196);
+            
+        }
+
+        nav ul li a:hover{
+            color: aliceblue;
+            font-size: 1.2rem;
+        }
+
+        
+        .left{
+            font-size: 1.5rem;
+        }
+
+        .firstsection{
+            display: flex;
+            justify-content: space-around;
+            margin:30px 0;
+        }
+
+        .firstsection > div{
+            width: 30%;
+        }
+
+        .leftsection{
+            font-size: 2rem;
+            margin: 70px 0;
+            
+            
+        }
+
+        .rightsection img{
+            width: 80%;
+            
+        }
+        .purple{
+            color: rgb(131, 94, 216);
+        }
+
+        #element{
+            color: slateblue;
+        }
+
+        .secondsection{
+            max-width: 80vw;
+            margin: auto;
+            height: 400px;
+        }
+        .secondsection h1{
+            font-size: 1.7rem;
+            
+        }
+
+        .text_gray{
+            color:gray ;
+        }
+
+        .secondsection .box{
+            background-color: white;
+            height: 2px;
+            width: 80vw;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondsection .vertical{
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 100px;
+            
+        }
+        .image-top{
+            position: relative;
+            width:23px; 
+            top: -32px;
+            left:-9px;
+        }
+        .verticaltitle{
+            position: relative;
+            top: 100px;
+            width: 300px;
+            display: flex;
+            font-size: 10rem;
+            height: 200px;
+
+
+        }
+
+        .vertical-desc{
+            position: relative;
+            top: 40px;
+            width:150px;
+            font-size: 9px;
+            color: gray;
+            height: 200px;
+
+
+
+        }
+        .flex{
+            height: 200px;
+            color: blue;
+            bottom: 400px;
+            align-items: center;
+            display: flex;
+
+        }
+
+        footer{
+            background-color: brown;
+            height: 233px;
+        }
+
+        .footer{
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul{
+            list-style: none;
+        }
+
+        .footer > div{
+            width:233px ;
+        }
+        footer.footer-right{
+            color: gray;
+            text-align: center;
+        }
+
+        
+        
+
+        
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Datta  Portfolio</div>
+                <div class="right">
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/">About me</a></li>
+                        <li><a href="/">Project</a></li>
+                        <li><a href="/">Skills</a></li>
+                        <li><a href="/">contact</a></li>
+                       
+                        
+                    </ul>
+
+                </div>
+        
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, My name is<span class="purple"> Datta </span>
+                <div>And Iam a passionate</div>
+                <div>Webdevelopment</div>
+                <span id="element"></span>
+            </div>
+            <div class="rightsection">
+                <img src="bg.img" alt=""></img>
+            
+            </div>
+            
+        </section>
+
+        <hr>
+
+        <section class="secondsection">
+            <span class="text_gray">What I have done so for</span>
+            <h1>Work experince</h1>
+            <div class="box">
+            <div class="vertical">
+                <img class="image-top" src="do.png" alt="">
+                <div clss="vertical-title">
+                    html developer(2001-2005)
+                </div>
+                <div class="vertical-desc">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque ad atque dignissimos, dolor voluptate optio! Quisquam consectetur soluta eum, dolores velit nihil numquam deleniti aliquid earum error, perferendis, pariatur sed?
+                </div>
+                
+            </div>
+
+            <div class="vertical">
+                <img class="image-top" src="do.png" alt="">
+                <div clss="verticaltitle">
+                    python developer(2001-2005)
+                </div>
+                <div class="vertical-desc">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque ad atque dignissimos, dolor voluptate optio! Quisquam consectetur soluta eum, dolores velit nihil numquam deleniti aliquid earum error, perferendis, pariatur sed?
+                </div>
+                
+            </div>
+
+            <div class="vertical">
+                <img class="image-top" src="do.png" alt="">
+                <div clss="verticaltitle">
+                    html developer(2001-2005)
+                </div>
+                <div class="vertical-desc">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque ad atque dignissimos, dolor voluptate optio! Quisquam consectetur soluta eum, dolores velit nihil numquam deleniti aliquid earum error, perferendis, pariatur sed?
+                </div>
+                
+            </div>
+
+            <div class="vertical">
+                <img class="image-top" src="do.png" alt="">
+                <div clss="verticaltitle">
+                    html developer(2001-2005)
+                </div>
+                <div class="vertical-desc">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque ad atque dignissimos, dolor voluptate optio! Quisquam consectetur soluta eum, dolores velit nihil numquam deleniti aliquid earum error, perferendis, pariatur sed?
+                </div>
+                
+            </div>
+
+            
+            <div class="vertical">
+        
+       
+        </section>
+        
+        
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="first-footer">
+                 Its all my portfolio
+            </div>
+            <div class="second-footer">
+                <ul>
+                    <li>Home</li>
+                    <li>about</li>
+                    <li>cotact</li>
+                    <li>service</li>
+                    <li>skills</li>
+                </ul>
+
+            </div>
+
+            <div class="third-footer">
+                <ul>
+                    <li>Home</li>
+                    <li>about</li>
+                    <li>cotact</li>
+                    <li>service</li>
+                    <li>skills</li>
+                </ul>
+
+            </div>
+
+            <div class="fourth-footer">
+                <ul>
+                    <li>Home</li>
+                    <li>about</li>
+                    <li>cotact</li>
+                    <li>service</li>
+                    <li>skills</li>
+                </ul>
+
+            </div>
+            
+            
+            
+
+        </div>
+        <div class="footer-right">
+            ww.dattasportfolio.com || All rights reserved
+        </div>
+ 
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['<b>Web deginer</b>  Editer.', '&amp; Graphic deginer.'],
+          typeSpeed: 50,
+        });
+      </script>
+    
+</body>
+</html>
